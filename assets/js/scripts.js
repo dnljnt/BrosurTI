@@ -50,26 +50,32 @@
 
 
     // =======CounterUp JS-Odometer========>>>>>   
-    if($('.odometer').length > 0){
-      $(window).on('scroll', function () {
-        let preloaderTimeout = 2500;
-        function winScrollPosition() {
-            var scrollPos = $(window).scrollTop(),
-                winHeight = $(window).height();
-            var scrollPosition = Math.round(scrollPos + (winHeight / .07));
-            return scrollPosition;
+    $(document).ready(function () {
+      if ($('.odometer').length > 0) {
+        // Fungsi untuk memeriksa apakah elemen sudah terlihat di viewport
+        function isElementInViewport(elem) {
+          let scrollPos = $(window).scrollTop();
+          let winHeight = $(window).height();
+          let elemOffset = $(elem).offset().top;
+    
+          return elemOffset < (scrollPos + winHeight);
         }
-        var elemOffset = $('.odometer').offset().top;
-        if (elemOffset < winScrollPosition()) {
-
-          setTimeout(function () {
-            $('.odometer').each(function () {
-              $(this).html($(this).data('count-to'));
-            });
-          }, preloaderTimeout + 200);          
+    
+        // Fungsi untuk memperbarui nilai odometer
+        function updateOdometer() {
+          $('.odometer').each(function () {
+            if ($(this).data('counted') !== true && isElementInViewport(this)) {
+              $(this).html($(this).data('count-to')); // Set nilai dari atribut data-count-to
+              $(this).data('counted', true); // Tandai elemen sebagai telah dihitung
+            }
+          });
         }
+    
+        // Periksa elemen saat halaman di-scroll atau dimuat
+        $(window).on('scroll', updateOdometer);
+        updateOdometer(); // Jalankan sekali untuk memastikan elemen yang sudah terlihat langsung diperbarui
+      }
     });
-  }
 
   // =======CounterUp JS-Odometer========>>>>>
 
