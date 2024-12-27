@@ -43,21 +43,14 @@
     <div class="cursor-text"></div>
 
     <div class="preloader">
-      <dotlottie-player
-        src="https://lottie.host/d851f1dc-6ef5-40be-8ca8-bbffcd018276/wutdxEizj0.json"
-        background="#04000A"
-        speed="1"
-        style="width: 100%; height: 100%"
-        direction="1"
-        mode="normal"
-        loop
-        autoplay
-      >
+      <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+      <dotlottie-player 
+      src="https://lottie.host/6385e4ae-a8fa-45c3-81f2-d3cb15ad9fa2/eR80Qn0myx.lottie" 
+      background="white" 
+      speed="1" 
+      style="width: 100%; height: 100%" 
+      loop autoplay>
       </dotlottie-player>
-      <script
-        src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
-        type="module"
-      ></script>
     </div>
 
     <!-- Header ======================-->
@@ -124,7 +117,7 @@
                   </li>
                 </ul>
                 <a
-                  href="home-1.html#ticket"
+                  href="http://wa.me/6282261900070"
                   class="btn btn-primary d-inline-flex btn-rounded align-items-center gap-2"
                   aria-label="buttons"
                 >
@@ -163,7 +156,7 @@
           <li class="nav-item">
             <a
               class="nav-link active text-uppercase"
-              href="about-us.html"
+              href="#beranda"
               aria-label="nav-links"
             >
               <span class="fw-semibold">Beranda</span>
@@ -172,7 +165,7 @@
           <li class="nav-item">
             <a
               class="nav-link text-uppercase"
-              href="venue.html"
+              href="#about"
               aria-label="nav-links"
             >
               <span class="fw-semibold">Tentang Kami</span>
@@ -181,7 +174,7 @@
           <li class="nav-item">
             <a
               class="nav-link text-uppercase"
-              href="contact-us.html"
+              href="#jurusan"
               aria-label="nav-links"
             >
               <span class="fw-semibold">Jurusan</span>
@@ -190,7 +183,7 @@
           <li class="nav-item">
             <a
               class="nav-link text-uppercase"
-              href="contact-us.html"
+              href="#kontak"
               aria-label="nav-links"
             >
               <span class="fw-semibold">Kontak</span>
@@ -213,11 +206,17 @@
           <div class="container">
             <div class="row gx-80 gy-50 gy-lg-0">
               <div class="col-lg-4 col-xl-6">
-                <h1
-                  class="fs-60 custom-font-jakarta text-primary fw-extra-bold mb-2 mb-lg-3 lh-sm"
-                >
-                  SMK TI BALI GLOBAL BADUNG
-                </h1>
+                <div class="position-relative">
+                  <h1
+                    class="fs-60 custom-font-jakarta text-primary fw-extra-bold mb-2 mb-lg-3 lh-sm"
+                  >
+                    SMK TI BALI GLOBAL BADUNG
+                  </h1>
+                </div>
+                <div class="star-icons d-flex align-items-end gap-0 position-absolute top-0 start-32">
+                  <span class="star-icon-big"><svg width="87" height="87"><use xlink:href="#star-icon-big"></use></svg></span>
+                  <span class="star-icon-small"><svg width="23" height="23"><use xlink:href="#star-icon-small"></use></svg></span>
+                </div>
                 <h4 class="custom-jakarta custom-font-style-2">
                   IT Profesional School | Sekolah IT Terkini
                 </h4>
@@ -287,8 +286,8 @@
             <div class="col-lg-6">
               <div class="about-3-image">
                 <img
-                  src="assets/media/about.png"
-                  class="img-fluid rounded-5"
+                  src="assets/media/about-img.png"
+                  class="img-fluid"
                   alt="about-image"
                 />
               </div>
@@ -310,7 +309,7 @@
                   Di SMK TI Bali Global Badung, kami berkomitmen untuk menciptakan lingkungan belajar yang aman, inovatif, dan inspiratif. Dengan berbagai program dan fasilitas modern, kami mendukung setiap siswa untuk mengejar impian dan mencapai potensi terbaik mereka.
                 </p>
                 <p class="mt-4">
-                  ✨ Tahun Ajaran 2024 Sudah Dibuka!
+                  ✨ Tahun Ajaran 2025 Sudah Dibuka!
                   Yuk daftar sebelum kehabisan kursi dan mulai masa depan cerahmu di dunia IT.
                 </p>
               </div>
@@ -321,7 +320,7 @@
                   <p
                     class="custom-jakarta custom-font-style-2 fw-semibold mb-0"
                   >
-                  12 November 2023 - 14 Januari 2024
+                  16 November 2024 - 12 Januari 2025
                   </p>
                 </div>
                 <div>
@@ -337,7 +336,7 @@
 
               <div class="d-block d-md-flex gap-4">
                 <a
-                  href="#pricing"
+                  href="http://wa.me/6282261900070" target="_blank"
                   class="btn btn-primary btn-style-2 btn-rounded align-items-center d-inline-flex gap-2 mb-3 mb-md-0"
                   aria-label="buttons"
                   ><span class="buttons-logo">
@@ -394,17 +393,16 @@
                   </div>
                 </div>
                 <h3 class="fw-extra-bold mb-0 custom-jakarta">
-                  TJKT (Teknik Jaringan Komputer dan Telekomunikasi )
+                  TJKT (Teknik Jaringan Komputer dan Telekomunikasi)
                 </h3>
                 <p class="custom-jakarta custom-font-style-2">
-                  Teknik Jaringan Komputer dan Telekomunikasi mengajarkan desain jaringan, keamanan data, dan internet. Lulusannya bekerja di bidang jaringan dan keamanan.
+                  Kompetensi Keahlian ini membekali peserta didik untuk menguasai konsep jaringan komputer, mendesain jaringan yang aman, serta memahami subnetting, routing, dan konfigurasi internet. Lulusan jurusan ini memiliki kemampuan untuk menempati profesi sebagai Computer Network Engineer, Network Administrator, Security System Analyst, dan berbagai peran lainnya di bidang jaringan komputer.
                 </p>
               </div>
             </div>
             <!-- col -->
             <div class="col">
-              <a
-                href="#"
+              <div
                 class="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
               <div class="highlights-icon-style-1">
@@ -418,14 +416,14 @@
                   DKV (Desain Komunikasi Visual)
                 </h3>
                 <p class="custom-jakarta custom-font-style-2">
-                  Desain Komunikasi Visual melatih keterampilan gambar digital, desain grafis dan multimedia. Lulusannya siap bekerja di bidang kreatif dan periklanan.
+                  
+                  Desain Komunikasi Visual Kompetensi Keahlian ini membekali peserta didik dalam pengoperasian software desain, digital illustration, digital imaging, dan web design. Selain itu, siswa juga diajarkan menggunakan perangkat digital audio, digital video, dan visual effect. Lulusan jurusan ini dapat berkarier sebagai Web Developer, Game Developer, pekerja di Production House Media, atau bergelut di dunia periklanan (Advertisement).
                 </p>
-              </a>
+              </div>
             </div>
             <!-- col -->
             <div class="col">
-              <a
-                href="#"
+              <div
                 class="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
               <div class="highlights-icon-style-1">
@@ -439,14 +437,13 @@
                   PPLG (Pengembangan Perangkat Lunak dan Gim)
                 </h3>
                 <p class="custom-jakarta custom-font-style-2">
-                  Pengembangan Perangkat Lunak dan Gim fokus pada pemrograman dan pengembangan perangkat lunak. Lulusannya menjadi Programmer, Developer, atau Analis Data.
+                  Pengembangan Perangkat Lunak dan Gim Kompetensi Keahlian ini memberikan keterampilan dalam Stand Alone Programming, Multi User Programming, dan Web Programming. Lulusan dari jurusan ini mampu berkarier sebagai Programmer, Software Developer, Cyber Security Analyst, Data Scientist, SEO Specialist, Database Administrator, System Analyst, Cloud Architect, dan profesi terkait lainnya dalam dunia teknologi perangkat lunak.
                 </p>
-              </a>
+              </div>
             </div>
             <!-- col -->
             <div class="col">
-              <a
-                href="#"
+              <div
                 class="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
               <div class="highlights-icon-style-1">
@@ -460,9 +457,9 @@
                   Bisnis Digital
                 </h3>
                 <p class="custom-jakarta custom-font-style-2">
-                  Bisnis Digital membekali siswa dengan kemampuan teknologi bisnis dan e-commerce. Lulusannya bekerja di pemasaran digital atau sebagai wirausaha.
+                  Bisnis Digital Kompetensi Keahlian ini mengajarkan peserta didik memanfaatkan teknologi digital untuk membangun serta mengembangkan operasi bisnis. Materi yang dipelajari meliputi Analisis Pasar Digital, E-Commerce, Pengelolaan Toko Online, Pengembangan Aplikasi Bisnis, Big Data Analysis, dan Keamanan Bisnis Digital. Lulusan jurusan ini berpeluang menjadi Manajer Pemasaran Digital, Spesialis E-Commerce, Analis Data Bisnis, Wirausaha Digital, Manajer Hubungan Pelanggan Digital, Ahli Keuangan Digital, dan lainnya.
                 </p>
-              </a>
+              </div>
             </div>
           </div>
           <!-- row -->
@@ -514,14 +511,13 @@
                   </h3>
                 </div>
                 <p class="custom-jakarta custom-font-style-2">
-                  Banyak kerjasama dengan Lembaga, Dunia Usaha dan Dunia Industri di dalam dan luar negeri sehingga memperluas.
+                  Tim pengajar terdiri dari akademisi dan praktisi berpendidikan S1 dan S2 yang sangat berpengalaman luas di bidang pendidikan dan ilmu produktif.
                 </p>
               </div>
             </div>
             <!-- col -->
             <div class="col">
-              <a
-                href="#"
+              <div
                 class="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
               <div class="highlights-icon-style-1 d-inline-flex align-items-center gap-3">
@@ -534,14 +530,13 @@
                 </h3>
               </div>
                 <p class="custom-jakarta custom-font-style-2">
-                  Banyak kerjasama dengan Lembaga, Dunia Usaha dan Dunia Industri di dalam dan luar negeri sehingga memperluas.
+                  Sekolah ini telah meraih berbagai prestasi gemilang, baik di bidang akademik maupun non-akademik, mulai dari tingkat Kabupaten, Provinsi, hingga Nasional.
                 </p>
-              </a>
+              </div>
             </div>
             <!-- col -->
             <div class="col">
-              <a
-                href="#"
+              <div
                 class="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
               <div class="highlights-icon-style-1 d-inline-flex align-items-center gap-3">
@@ -556,14 +551,13 @@
                 </h3>
               </div>
                 <p class="custom-jakarta custom-font-style-2">
-                  Banyak kerjasama dengan Lembaga, Dunia Usaha dan Dunia Industri di dalam dan luar negeri sehingga memperluas.
+                  Tersedia beragam program beasiswa yang disiapkan sekolah untuk mendukung siswa-siswa yang berprestasi secara akademik maupun non-akademik.
                 </p>
-              </a>
+              </div>
             </div>
             <!-- col -->
             <div class="col">
-              <a
-                href="#"
+              <div
                 class="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
               <div class="highlights-icon-style-1 d-inline-flex align-items-center gap-3">
@@ -575,14 +569,13 @@
                 </h3>
               </div>
                 <p class="custom-jakarta custom-font-style-2">
-                  Banyak kerjasama dengan Lembaga, Dunia Usaha dan Dunia Industri di dalam dan luar negeri sehingga memperluas
+                  Sekolah menyediakan pilihan kegiatan ekstrakurikuler yang beragam, mulai dari Web Design, Bahasa Jepang, Seni Tari, Paduan Suara, hingga olahraga seperti Bulu Tangkis.
                 </p>
-              </a>
+              </div>
             </div>
             <!-- col -->
             <div class="col">
-              <a
-                href="#"
+              <div
                 class="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
               <div class="highlights-icon-style-1 d-inline-flex align-items-center gap-3">
@@ -597,14 +590,13 @@
                 </h3>
               </div>
                 <p class="custom-jakarta custom-font-style-2">
-                  Banyak kerjasama dengan Lembaga, Dunia Usaha dan Dunia Industri di dalam dan luar negeri sehingga memperluas
+                  Memiliki jaringan kerja sama luas dengan lembaga pendidikan, dunia usaha, dan industri baik di dalam negeri maupun internasional, membuka peluang karier bagi siswa.
                 </p>
-              </a>
+              </div>
             </div>
             <!-- col -->
             <div class="col">
-              <a
-                href="#"
+              <div
                 class="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
               <div class="highlights-icon-style-1 d-inline-flex align-items-center gap-3">
@@ -616,9 +608,9 @@
                 </h3>
               </div>
                 <p class="custom-jakarta custom-font-style-2">
-                  Banyak kerjasama dengan Lembaga, Dunia Usaha dan Dunia Industri di dalam dan luar negeri sehingga memperluas
+                  Fasilitas yang tersedia meliputi Free WiFi, Laboratorium, Studio Multimedia, LCD Proyektor, Ruang Podcast, Lapangan Olahraga, hingga Kantin dan area belajar lainnya.
                 </p>
-              </a>
+              </div>
             </div>
           </div>
           <!-- row -->
@@ -656,7 +648,7 @@
                   <p class="custom-jakarta fw-bold">
                     💡 Ingin sukses seperti mereka? <br>
                     <span class="custom-font-style-2">
-                      Bergabunglah sekarang dan jadilah bagian dari generasi juara! ✨"
+                      Bergabunglah sekarang dan jadilah bagian dari generasi juara! ✨
                     </span>
                   </p>
                 </div>
@@ -691,43 +683,9 @@
                           />
                         </div>
                         <div class="lineup-image-hover">
-                          <p class="author-name custom-jakarta">Daniel Januarta</p>
                           <div class="line-up-hover-content">
-                            <h5 class="fw-medium mb-20 custom-roboto">
-                              Lomba : <span class="text-uppercase">Web Design Infinity 2024</span>
-                            </h5>
-                            <div
-                              class="line-up-icons d-flex align-items-center gap-3 gap-lg-20"
-                            >
-                              <a
-                                href="#"
-                                class="facebook-icon"
-                                aria-label="facebook"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#facebook-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="instagram-icon"
-                                aria-label="instagram"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#instagram-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="youtube-icon"
-                                aria-label="youtube"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#youtube-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="spotify-icon"
-                                aria-label="spotify"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#spotify-icon"></use></svg
-                              ></a>
-                            </div>
+                            <span class="custom-jakarta fw-bold text-white author-name">Juara 1, Web Design Infinity 2024</span>
+                            <h6 class="text-white custom-jakarta">Daniel Januarta</h6>
                           </div>
                         </div>
                         <!-- lineup-image-hover -->
@@ -758,43 +716,9 @@
                           />
                         </div>
                         <div class="lineup-image-hover">
-                          <p class="author-name ">Nyoman Andika</p>
                           <div class="line-up-hover-content">
-                            <h5 class="fw-medium mb-20 custom-roboto">
-                              Lomba : <span class="text-uppercase">Maskot Porjar Provinsi Bali 2024</span>
-                            </h5>
-                            <div
-                              class="line-up-icons d-flex align-items-center gap-3 gap-lg-20"
-                            >
-                              <a
-                                href="#"
-                                class="facebook-icon"
-                                aria-label="facebook"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#facebook-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="instagram-icon"
-                                aria-label="instagram"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#instagram-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="youtube-icon"
-                                aria-label="youtube"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#youtube-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="spotify-icon"
-                                aria-label="spotify"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#spotify-icon"></use></svg
-                              ></a>
-                            </div>
+                            <span class="custom-jakarta fw-bold text-white author-name">Juara 1, Maskot Porjar Provinsi Bali 2024</span>
+                            <h6 class="text-white custom-jakarta">Nyoman Andika</h6>
                           </div>
                         </div>
                         <!-- lineup-image-hover -->
@@ -805,14 +729,14 @@
                     <div class="swiper-slide">
                       <div class="lineup-image-wrapper position-relative">
                         <div class="position-absolute z-3 medali">
-                          <svg width="42" height="39" viewBox="0 0 42 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.1655 28.6991C29.0906 28.6991 35.5151 22.2746 35.5151 14.3495C35.5151 6.4245 29.0906 0 21.1655 0C13.2405 0 6.81602 6.4245 6.81602 14.3495C6.81602 22.2746 13.2405 28.6991 21.1655 28.6991ZM2.70022 25.7272L5.78127 22.5395C7.05553 24.9334 8.87098 26.9948 11.0831 28.5635C13.2953 30.1322 15.843 31.1629 18.5237 31.5736L13.4357 36.8419L13.4119 36.8666C12.3187 37.9961 11.7699 38.5632 11.3058 38.7586C10.2378 39.2116 9.05091 38.8242 8.48923 37.8402C8.24324 37.4077 8.16534 36.6287 8.0116 35.0708C7.9255 34.1914 7.88245 33.7527 7.75125 33.3837C7.45401 32.5596 6.83698 31.918 6.03956 31.6125C5.6857 31.4755 5.2604 31.4303 4.41543 31.3405L4.40986 31.3399C2.90316 31.1821 2.15289 31.1021 1.7347 30.8479C0.785583 30.2657 0.410445 29.0399 0.847081 27.9329C1.03841 27.4505 1.58542 26.8833 2.67674 25.7515L2.70022 25.7272ZM28.8984 36.844L23.8104 31.5756H23.8084C26.489 31.165 29.0368 30.1342 31.2489 28.5655C33.4611 26.9968 35.2765 24.9334 36.5508 22.5395L39.6318 25.7292C40.7388 26.8751 41.2923 27.4491 41.485 27.935C41.9216 29.0399 41.5464 30.2678 40.5973 30.85C40.1791 31.1042 39.4268 31.1841 37.9222 31.344L37.8744 31.3491C37.0554 31.4359 36.6404 31.4798 36.2925 31.6146C35.495 31.92 34.876 32.5617 34.5808 33.3857C34.4507 33.7516 34.4073 34.1859 34.3206 35.0523L34.3184 35.0749L34.3161 35.0982C34.1639 36.6406 34.0876 37.4139 33.8428 37.8423C33.2811 38.8263 32.0942 39.2137 31.0262 38.7627C30.5588 38.5639 30.0053 37.9919 28.8984 36.844Z" fill="url(#paint0_linear_474_141)"/>
-                            <path d="M24.5957 19H18.0957V16.5H19.6426V11.5859C19.3613 11.6589 18.9759 11.6953 18.4863 11.6953C18.3301 11.6953 18.1999 11.6875 18.0957 11.6719V9.26562C18.1582 9.27083 18.2233 9.27344 18.291 9.27344C18.9733 9.27344 19.6061 9.14062 20.1895 8.875C20.7832 8.60417 21.2077 8.28385 21.4629 7.91406H23.0957V16.5H24.5957V19Z" fill="white"/>
+                          <svg width="41" height="38" viewBox="0 0 41 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.4995 27.9991C28.4246 27.9991 34.8491 21.7313 34.8491 13.9995C34.8491 6.26781 28.4246 0 20.4995 0C12.5745 0 6.15 6.26781 6.15 13.9995C6.15 21.7313 12.5745 27.9991 20.4995 27.9991ZM2.0342 25.0999L5.11525 21.99C6.38952 24.3255 8.20496 26.3365 10.4171 27.867C12.6292 29.3974 15.177 30.403 17.8576 30.8037L12.7697 35.9435L12.7458 35.9676C11.6527 37.0695 11.1038 37.6228 10.6398 37.8134C9.57181 38.2554 8.3849 37.8774 7.82321 36.9175C7.57722 36.4955 7.49933 35.7355 7.34558 34.2156C7.25948 33.3576 7.21643 32.9296 7.08524 32.5696C6.788 31.7656 6.17097 31.1397 5.37354 30.8417C5.01969 30.708 4.59439 30.6639 3.74944 30.5763L3.74385 30.5757C2.23715 30.4217 1.48687 30.3437 1.06869 30.0957C0.119567 29.5277 -0.25557 28.3318 0.181065 27.2518C0.372392 26.7812 0.919406 26.2277 2.01073 25.1236L2.0342 25.0999ZM28.2323 35.9455L23.1444 30.8057H23.1424C25.823 30.405 28.3708 29.3994 30.5829 27.869C32.795 26.3385 34.6105 24.3255 35.8847 21.99L38.9658 25.1019C40.0728 26.2198 40.6262 26.7798 40.8189 27.2538C41.2556 28.3318 40.8804 29.5297 39.9313 30.0977C39.5131 30.3457 38.7608 30.4237 37.2561 30.5797L37.2083 30.5846C36.3894 30.6693 35.9744 30.7122 35.6265 30.8437C34.829 31.1417 34.2099 31.7676 33.9148 32.5716C33.7847 32.9285 33.7413 33.3523 33.6546 34.1975L33.6524 34.2196L33.6501 34.2423C33.4979 35.7471 33.4215 36.5016 33.1768 36.9195C32.6151 37.8794 31.4282 38.2574 30.3602 37.8174C29.8928 37.6235 29.3393 37.0655 28.2323 35.9455Z" fill="url(#paint0_linear_618_45)"/>
+                            <path d="M15.7188 15.3125L18.5312 15.1016C18.5781 16.2578 19.1172 16.8359 20.1484 16.8359C20.5964 16.8359 20.9297 16.7135 21.1484 16.4688C21.362 16.224 21.4688 15.9271 21.4688 15.5781C21.4688 14.6927 20.8776 14.2292 19.6953 14.1875V12.4219C20.0599 12.4219 20.4036 12.3151 20.7266 12.1016C21.0443 11.8932 21.2031 11.5833 21.2031 11.1719C21.2031 10.8385 21.099 10.5703 20.8906 10.3672C20.6771 10.1693 20.3958 10.0703 20.0469 10.0703C19.3021 10.0703 18.901 10.4818 18.8438 11.3047L15.9062 11.1484C15.9688 10.0651 16.3906 9.25521 17.1719 8.71875C17.9479 8.18229 19.0078 7.91406 20.3516 7.91406C21.7839 7.91406 22.8568 8.20573 23.5703 8.78906C24.2839 9.3776 24.6406 10.1016 24.6406 10.9609C24.6406 11.4766 24.4896 11.9349 24.1875 12.3359C23.8854 12.7422 23.4766 13.0234 22.9609 13.1797C23.612 13.3203 24.1198 13.6198 24.4844 14.0781C24.849 14.5365 25.0312 15.0911 25.0312 15.7422C25.0312 16.7839 24.599 17.6042 23.7344 18.2031C22.8698 18.8021 21.7318 19.1016 20.3203 19.1016C18.8984 19.1016 17.7839 18.7917 16.9766 18.1719C16.1797 17.5573 15.7604 16.6042 15.7188 15.3125Z" fill="white"/>
                             <defs>
-                            <linearGradient id="paint0_linear_474_141" x1="1.69098" y1="2.04996" x2="41.6651" y2="38.9487" gradientUnits="userSpaceOnUse">
-                            <stop offset="0.182142" stop-color="#F0B000"/>
-                            <stop offset="0.46" stop-color="#FFD7B1"/>
-                            <stop offset="0.717142" stop-color="#FFBB00"/>
+                            <linearGradient id="paint0_linear_618_45" x1="1.02497" y1="1.99998" x2="40.0896" y2="38.9603" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#6F4822"/>
+                            <stop offset="0.46" stop-color="#9D6833"/>
+                            <stop offset="1" stop-color="#6F4822"/>
                             </linearGradient>
                             </defs>
                           </svg>
@@ -825,44 +749,9 @@
                           />
                         </div>
                         <div class="lineup-image-hover">
-                          <p class="author-name">Misty</p>
                           <div class="line-up-hover-content">
-                            <h5 class="fw-medium mb-20 custom-roboto">
-                              Lomba :
-                              <span class="text-uppercase">Talent Of School Bali 2024</span>
-                            </h5>
-                            <div
-                              class="line-up-icons d-flex align-items-center gap-3 gap-lg-20"
-                            >
-                              <a
-                                href="#"
-                                class="facebook-icon"
-                                aria-label="facebook"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#facebook-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="instagram-icon"
-                                aria-label="instagram"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#instagram-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="youtube-icon"
-                                aria-label="youtube"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#youtube-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="spotify-icon"
-                                aria-label="spotify"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#spotify-icon"></use></svg
-                              ></a>
-                            </div>
+                            <span class="custom-jakarta fw-bold text-white author-name">Juara 3, Talent Of School Bali 2024</span>
+                            <h6 class="text-white custom-jakarta">Misty</h6>
                           </div>
                         </div>
                         <!-- lineup-image-hover -->
@@ -893,43 +782,9 @@
                           />
                         </div>
                         <div class="lineup-image-hover">
-                          <p class="author-name">Doni Wahyu</p>
                           <div class="line-up-hover-content">
-                            <h5 class="fw-medium mb-20 custom-roboto">
-                              Lomba : <span class="text-uppercase">Fotografi BDFEST ITB STIKOM BALI 2024</span>
-                            </h5>
-                            <div
-                              class="line-up-icons d-flex align-items-center gap-3 gap-lg-20"
-                            >
-                              <a
-                                href="#"
-                                class="facebook-icon"
-                                aria-label="facebook"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#facebook-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="instagram-icon"
-                                aria-label="instagram"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#instagram-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="youtube-icon"
-                                aria-label="youtube"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#youtube-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="spotify-icon"
-                                aria-label="spotify"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#spotify-icon"></use></svg
-                              ></a>
-                            </div>
+                            <span class="custom-jakarta fw-bold text-white author-name">Juara 1, Fotografi BDFEST ITB STIKOM BALI 2024</span>
+                            <h6 class="text-white custom-jakarta">Doni Wahyu</h6>
                           </div>
                         </div>
                         <!-- lineup-image-hover -->
@@ -940,14 +795,14 @@
                     <div class="swiper-slide">
                       <div class="lineup-image-wrapper position-relative">
                         <div class="position-absolute z-3 medali">
-                          <svg width="42" height="39" viewBox="0 0 42 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.1655 28.6991C29.0906 28.6991 35.5151 22.2746 35.5151 14.3495C35.5151 6.4245 29.0906 0 21.1655 0C13.2405 0 6.81602 6.4245 6.81602 14.3495C6.81602 22.2746 13.2405 28.6991 21.1655 28.6991ZM2.70022 25.7272L5.78127 22.5395C7.05553 24.9334 8.87098 26.9948 11.0831 28.5635C13.2953 30.1322 15.843 31.1629 18.5237 31.5736L13.4357 36.8419L13.4119 36.8666C12.3187 37.9961 11.7699 38.5632 11.3058 38.7586C10.2378 39.2116 9.05091 38.8242 8.48923 37.8402C8.24324 37.4077 8.16534 36.6287 8.0116 35.0708C7.9255 34.1914 7.88245 33.7527 7.75125 33.3837C7.45401 32.5596 6.83698 31.918 6.03956 31.6125C5.6857 31.4755 5.2604 31.4303 4.41543 31.3405L4.40986 31.3399C2.90316 31.1821 2.15289 31.1021 1.7347 30.8479C0.785583 30.2657 0.410445 29.0399 0.847081 27.9329C1.03841 27.4505 1.58542 26.8833 2.67674 25.7515L2.70022 25.7272ZM28.8984 36.844L23.8104 31.5756H23.8084C26.489 31.165 29.0368 30.1342 31.2489 28.5655C33.4611 26.9968 35.2765 24.9334 36.5508 22.5395L39.6318 25.7292C40.7388 26.8751 41.2923 27.4491 41.485 27.935C41.9216 29.0399 41.5464 30.2678 40.5973 30.85C40.1791 31.1042 39.4268 31.1841 37.9222 31.344L37.8744 31.3491C37.0554 31.4359 36.6404 31.4798 36.2925 31.6146C35.495 31.92 34.876 32.5617 34.5808 33.3857C34.4507 33.7516 34.4073 34.1859 34.3206 35.0523L34.3184 35.0749L34.3161 35.0982C34.1639 36.6406 34.0876 37.4139 33.8428 37.8423C33.2811 38.8263 32.0942 39.2137 31.0262 38.7627C30.5588 38.5639 30.0053 37.9919 28.8984 36.844Z" fill="url(#paint0_linear_474_141)"/>
-                            <path d="M24.5957 19H18.0957V16.5H19.6426V11.5859C19.3613 11.6589 18.9759 11.6953 18.4863 11.6953C18.3301 11.6953 18.1999 11.6875 18.0957 11.6719V9.26562C18.1582 9.27083 18.2233 9.27344 18.291 9.27344C18.9733 9.27344 19.6061 9.14062 20.1895 8.875C20.7832 8.60417 21.2077 8.28385 21.4629 7.91406H23.0957V16.5H24.5957V19Z" fill="white"/>
+                          <svg width="41" height="39" viewBox="0 0 41 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.4995 28.6991C28.4246 28.6991 34.8491 22.2746 34.8491 14.3495C34.8491 6.4245 28.4246 0 20.4995 0C12.5745 0 6.15 6.4245 6.15 14.3495C6.15 22.2746 12.5745 28.6991 20.4995 28.6991ZM2.0342 25.7272L5.11525 22.5395C6.38952 24.9334 8.20496 26.9948 10.4171 28.5635C12.6292 30.1322 15.177 31.1629 17.8576 31.5736L12.7697 36.8419L12.7459 36.8666C11.6527 37.9961 11.1038 38.5632 10.6398 38.7586C9.57181 39.2116 8.3849 38.8242 7.82321 37.8402C7.57722 37.4077 7.49933 36.6287 7.34558 35.0708C7.25948 34.1914 7.21643 33.7527 7.08524 33.3837C6.788 32.5596 6.17097 31.918 5.37354 31.6125C5.01968 31.4755 4.59439 31.4303 3.74941 31.3405L3.74385 31.3399C2.23715 31.1821 1.48687 31.1021 1.06869 30.8479C0.119567 30.2657 -0.25557 29.0399 0.181065 27.9329C0.372392 27.4505 0.919404 26.8833 2.01072 25.7515L2.0342 25.7272ZM28.2323 36.844L23.1444 31.5756H23.1424C25.823 31.165 28.3708 30.1342 30.5829 28.5655C32.795 26.9968 34.6105 24.9334 35.8847 22.5395L38.9658 25.7292C40.0728 26.8751 40.6262 27.4491 40.8189 27.935C41.2556 29.0399 40.8804 30.2678 39.9313 30.85C39.5131 31.1042 38.7608 31.1841 37.2561 31.344L37.2084 31.3491C36.3894 31.4359 35.9744 31.4798 35.6265 31.6146C34.829 31.92 34.2099 32.5617 33.9148 33.3857C33.7847 33.7516 33.7413 34.1859 33.6546 35.0523L33.6524 35.0749L33.6501 35.0982C33.4979 36.6406 33.4215 37.4139 33.1768 37.8423C32.6151 38.8263 31.4282 39.2137 30.3602 38.7627C29.8928 38.5639 29.3393 37.9919 28.2323 36.844Z" fill="url(#paint0_linear_451_168)"/>
+                            <path d="M22.5156 15.6016H24.7656L24.6719 19H16.0234C16.013 18.7812 16.0078 18.6693 16.0078 18.6641C16.0078 17.6536 16.2266 16.7474 16.6641 15.9453C16.888 15.5339 17.1979 15.125 17.5938 14.7188C17.9896 14.3125 18.4714 13.9036 19.0391 13.4922C19.9974 12.7839 20.6146 12.2734 20.8906 11.9609C21.1667 11.638 21.3047 11.3125 21.3047 10.9844C21.3047 10.6667 21.2109 10.4062 21.0234 10.2031C20.8359 10 20.5547 9.89844 20.1797 9.89844C19.3776 9.89844 18.9766 10.4062 18.9766 11.4219L16.1797 11.3359C16.237 10.0911 16.651 9.20833 17.4219 8.6875C18.1979 8.17188 19.1771 7.91406 20.3594 7.91406C21.651 7.91406 22.6979 8.21094 23.5 8.80469C24.3021 9.40365 24.7031 10.1849 24.7031 11.1484C24.7031 11.7682 24.5 12.3411 24.0938 12.8672C23.6771 13.3932 22.8828 13.9557 21.7109 14.5547C20.763 15.0339 20.1276 15.3958 19.8047 15.6406C19.4766 15.8958 19.2266 16.1849 19.0547 16.5078H22.4766L22.5156 15.6016Z" fill="white"/>
                             <defs>
-                            <linearGradient id="paint0_linear_474_141" x1="1.69098" y1="2.04996" x2="41.6651" y2="38.9487" gradientUnits="userSpaceOnUse">
-                            <stop offset="0.182142" stop-color="#F0B000"/>
-                            <stop offset="0.46" stop-color="#FFD7B1"/>
-                            <stop offset="0.717142" stop-color="#FFBB00"/>
+                            <linearGradient id="paint0_linear_451_168" x1="1.02497" y1="2.04996" x2="40.9991" y2="38.9487" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#C9C9C9"/>
+                            <stop offset="0.46" stop-color="#9D9D9D"/>
+                            <stop offset="1" stop-color="#C9C9C9"/>
                             </linearGradient>
                             </defs>
                           </svg>
@@ -960,43 +815,9 @@
                           />
                         </div>
                         <div class="lineup-image-hover">
-                          <p class="author-name">David Cindoma</p>
                           <div class="line-up-hover-content">
-                            <h5 class="fw-medium mb-20 custom-roboto">
-                              Lomba : <span class="text-uppercase">Fotografi BDFEST ITB STIKOM BALI 2024</span>
-                            </h5>
-                            <div
-                              class="line-up-icons d-flex align-items-center gap-3 gap-lg-20"
-                            >
-                              <a
-                                href="#"
-                                class="facebook-icon"
-                                aria-label="facebook"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#facebook-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="instagram-icon"
-                                aria-label="instagram"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#instagram-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="youtube-icon"
-                                aria-label="youtube"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#youtube-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="spotify-icon"
-                                aria-label="spotify"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#spotify-icon"></use></svg
-                              ></a>
-                            </div>
+                            <span class="custom-jakarta fw-bold text-white author-name">Juara 2, Fotografi BDFEST ITB STIKOM BALI 2024</span>
+                            <h6 class="text-white custom-jakarta">David Cindoma</h6>
                           </div>
                         </div>
                         <!-- lineup-image-hover -->
@@ -1027,44 +848,9 @@
                           />
                         </div>
                         <div class="lineup-image-hover">
-                          <p class="author-name">Nihaal Safitri</p>
                           <div class="line-up-hover-content">
-                            <h5 class="fw-medium mb-20 custom-roboto">
-                              Lomba :
-                              <span class="text-capitalize">Porjar Shorinji Kempo 2024</span>
-                            </h5>
-                            <div
-                              class="line-up-icons d-flex align-items-center gap-3 gap-lg-20"
-                            >
-                              <a
-                                href="#"
-                                class="facebook-icon"
-                                aria-label="facebook"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#facebook-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="instagram-icon"
-                                aria-label="instagram"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#instagram-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="youtube-icon"
-                                aria-label="youtube"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#youtube-icon"></use></svg
-                              ></a>
-                              <a
-                                href="#"
-                                class="spotify-icon"
-                                aria-label="spotify"
-                                ><svg width="20" height="20">
-                                  <use xlink:href="#spotify-icon"></use></svg
-                              ></a>
-                            </div>
+                            <span class="custom-jakarta fw-bold text-white author-name">Juara 1, Porjar Shorinji Kempo 2024</span>
+                            <h6 class="text-white custom-jakarta">Nihall Safitri</h6>
                           </div>
                         </div>
                         <!-- lineup-image-hover -->
@@ -1108,72 +894,6 @@
         <!-- container -->
       </section>
       <!--LineUp Section ======================-->
-
-      <!--Countdown Section ======================-->
-      <div
-        class="countdown-section position-relative pt-50 pt-lg-100 pt-xxl-130"
-      >
-        <div class="dark-wrapper-bg">
-          <div class="container">
-            <!--CountDown Section ======================-->
-            <div class="countdown">
-              <div
-                class="row row-cols-2 row-cols-lg-3 row-cols-xl-4 justify-content-between align-items-center"
-              >
-                <div class="col">
-                  <div class="countdown-item">
-                    <span
-                      class="countdown-number text-primary custom-jakarta"
-                      id="days"
-                      >00</span
-                    >
-                    <span class="countdown-label text-opacity custom-jakarta"
-                      >Days</span
-                    >
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="countdown-item">
-                    <span
-                      class="countdown-number text-primary custom-jakarta"
-                      id="hours"
-                      >00</span
-                    >
-                    <span class="countdown-label text-opacity custom-jakarta"
-                      >Hours</span
-                    >
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="countdown-item">
-                    <span
-                      class="countdown-number text-primary custom-jakarta"
-                      id="minutes"
-                      >00</span
-                    >
-                    <span class="countdown-label text-opacity custom-jakarta"
-                      >Minutes</span
-                    >
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="countdown-item">
-                    <span
-                      class="countdown-number text-primary custom-jakarta"
-                      id="seconds"
-                      >00</span
-                    >
-                    <span class="countdown-label text-opacity custom-jakarta"
-                      >Seconds</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Countdown Section ======================-->
 
       <!--Schedule Section ======================-->
       <section
@@ -1247,9 +967,9 @@
                       aria-controls="day-1"
                       aria-selected="true"
                     >
-                      <span class="fs-3 fw-extra-bold mb-0">Gelombang 1</span>
+                      <span class="fs-3 fw-extra-bold mb-0">G. Khusus</span>
                       <span class="fs-5 fw-semibold mb-0 d-none d-lg-block"
-                        >15 Januari, 2024</span
+                        >12 Januari, 2024</span
                       >
                     </button>
                   </li>
@@ -1264,9 +984,9 @@
                       aria-controls="day-2"
                       aria-selected="false"
                     >
-                      <span class="fs-3 fw-extra-bold mb-0">Gelombang 2</span>
+                      <span class="fs-3 fw-extra-bold mb-0">Gelombang 1</span>
                       <span class="fs-5 fw-semibold mb-0 d-none d-lg-block"
-                        >15 April, 2024</span
+                        >TBA</span
                       >
                     </button>
                   </li>
@@ -1281,9 +1001,9 @@
                       aria-controls="day-3"
                       aria-selected="false"
                     >
-                      <span class="fs-3 fw-extra-bold mb-0">Gelombang 3</span>
+                      <span class="fs-3 fw-extra-bold mb-0">Gelombang 2</span>
                       <span class="fs-5 fw-semibold mb-0 d-none d-lg-block"
-                        >17 Juni, 2024</span
+                        >TBA</span
                       >
                     </button>
                   </li>
@@ -1309,11 +1029,39 @@
                         <h2
                           class="fw-extra-bold schedule-time text-opacity custom-jakarta"
                         >
-                          11:00 AM
+                          Benefit
                         </h2>
                         <div>
                           <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Pre-Event Registration
+                            Baju Kaos
+                          </h2>
+                        </div>
+                      </li>
+                      <li
+                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
+                      >
+                        <h2
+                          class=" schedule-time text-opacity custom-jakarta"
+                        >
+                          
+                        </h2>
+                        <div>
+                          <h2 class="fw-semibold text-opacity custom-jakarta">
+                            Voucher Belanja
+                          </h2>
+                        </div>
+                      </li>
+                      <li
+                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
+                      >
+                        <h2
+                          class=" schedule-time text-opacity custom-jakarta"
+                        >
+                          
+                        </h2>
+                        <div>
+                          <h2 class="fw-semibold text-opacity custom-jakarta">
+                            Gratis Uang Pendaftaran
                           </h2>
                         </div>
                       </li>
@@ -1323,103 +1071,19 @@
                         <h2
                           class="fw-extra-bold schedule-time text-opacity custom-jakarta"
                         >
-                          12:30 PM
+                          S&K
                         </h2>
                         <div>
                           <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Interactive Music Workshops
-                          </h2>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          02:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Food & Beverage Bazaar
+                            Berkas yang diperlukan
                           </h2>
                           <p class="custom-jakarta custom-font-style-2">
-                            Delight in a culinary journey with a diverse array
-                            of delectable treats from local vendors. Savor
-                            gourmet dishes and specialty drinks amidst a vibrant
-                            atmosphere.
-                          </p>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          04:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Artistic Installations Unveiled
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Immerse yourself in an artistic wonderland as
-                            enchanting installations come to life. Engage with
-                            visual and interactive displays that celebrate the
-                            harmony between music and art.
-                          </p>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          06:30 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Opening Ceremony with Celestial Rhythms
-                          </h2>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          08:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Astral Beats on the Main Stage
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Get ready to dance as the electrifying duo Astral
-                            Beats takes the main stage, delivering an immersive
-                            blend of electronic and live instruments.
-                          </p>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          10:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Starlit Serenade Sessions
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Extend your night under the stars with intimate
-                            acoustic sessions. Unwind with soul-stirring
-                            melodies and acoustic performances by guest artists.
+                            <ol>
+                              <li class="list-item">Fotocopy KK</li>
+                              <li class="list-item">Fotocopy Akta Kelahiran</li>
+                              <li class="list-item">Fotocopy Nilai Raport semester 5</li>
+                              <li class="list-item">Fotocopy NISN</li>
+                            </ol>
                           </p>
                         </div>
                       </li>
@@ -1444,11 +1108,11 @@
                         <h2
                           class="fw-extra-bold schedule-time text-opacity custom-jakarta"
                         >
-                          11:00 AM
+                          TBA
                         </h2>
                         <div>
                           <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Food & Beverage Bazaar
+                            -
                           </h2>
                         </div>
                       </li>
@@ -1458,104 +1122,12 @@
                         <h2
                           class="fw-extra-bold schedule-time text-opacity custom-jakarta"
                         >
-                          12:30 PM
+                          TBA
                         </h2>
                         <div>
                           <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Interactive Music Workshops
+                            -
                           </h2>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          02:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Event Registration
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Delight in a culinary journey with a diverse array
-                            of delectable treats from local vendors. Savor
-                            gourmet dishes and specialty drinks amidst a vibrant
-                            atmosphere.
-                          </p>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          04:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Artistic Installations Unveiled
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Immerse yourself in an artistic wonderland as
-                            enchanting installations come to life. Engage with
-                            visual and interactive displays that celebrate the
-                            harmony between music and art.
-                          </p>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          06:30 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Opening Ceremony with Celestial Rhythms
-                          </h2>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          08:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Astral Beats on the Main Stage
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Get ready to dance as the electrifying duo Astral
-                            Beats takes the main stage, delivering an immersive
-                            blend of electronic and live instruments.
-                          </p>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          10:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Starlit Serenade Sessions
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Extend your night under the stars with intimate
-                            acoustic sessions. Unwind with soul-stirring
-                            melodies and acoustic performances by guest artists.
-                          </p>
                         </div>
                       </li>
                     </ul>
@@ -1579,11 +1151,11 @@
                         <h2
                           class="fw-extra-bold schedule-time text-opacity custom-jakarta"
                         >
-                          11:00 AM
+                          TBA
                         </h2>
                         <div>
                           <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Registration for Event
+                            -
                           </h2>
                         </div>
                       </li>
@@ -1593,104 +1165,12 @@
                         <h2
                           class="fw-extra-bold schedule-time text-opacity custom-jakarta"
                         >
-                          12:30 PM
+                          Pemberitahuan
                         </h2>
                         <div>
                           <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Food & Beverage Bazaar
+                            Gelombang 3 ditiadakan jika Gelombang 2 terpenuhi
                           </h2>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          02:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Interactive Music Workshops
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Delight in a culinary journey with a diverse array
-                            of delectable treats from local vendors. Savor
-                            gourmet dishes and specialty drinks amidst a vibrant
-                            atmosphere.
-                          </p>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          04:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Artistic Installations Unveiled
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Immerse yourself in an artistic wonderland as
-                            enchanting installations come to life. Engage with
-                            visual and interactive displays that celebrate the
-                            harmony between music and art.
-                          </p>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          06:30 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Opening Ceremony with Celestial Rhythms
-                          </h2>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          08:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Astral Beats on the Main Stage
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Get ready to dance as the electrifying duo Astral
-                            Beats takes the main stage, delivering an immersive
-                            blend of electronic and live instruments.
-                          </p>
-                        </div>
-                      </li>
-                      <li
-                        class="d-flex flex-column flex-lg-row gap-1 gap-lg-70 gap-xxl-90"
-                      >
-                        <h2
-                          class="fw-extra-bold schedule-time text-opacity custom-jakarta"
-                        >
-                          10:00 PM
-                        </h2>
-                        <div>
-                          <h2 class="fw-semibold text-opacity custom-jakarta">
-                            Starlit Serenade Sessions
-                          </h2>
-                          <p class="custom-jakarta custom-font-style-2">
-                            Extend your night under the stars with intimate
-                            acoustic sessions. Unwind with soul-stirring
-                            melodies and acoustic performances by guest artists.
-                          </p>
                         </div>
                       </li>
                     </ul>
@@ -1740,11 +1220,22 @@
             <div class="swiper-slide">
               <div class="gallery-image">
                 <a
-                  href="http://www.youtube.com/watch?v=0O2aH4XLbto"
-                  class="video-popup-link hover-area"
-                  data-cursor-text="Video"
+                  href="assets/media/11.JPG"
+                  class="image-link hover-area"
+                  data-cursor-text="Gambar"
                 >
-                  <img src="assets/images/gallery-1.jpg" alt="img" />
+                  <img src="assets/media/11.JPG" alt="img" />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-image">
+                <a
+                  href="assets/media/10.jpg"
+                  class="image-link hover-area"
+                  data-cursor-text="Gambar"
+                >
+                  <img src="assets/media/10.jpg" alt="img" />
                 </a>
               </div>
             </div>
@@ -1762,17 +1253,6 @@
             <div class="swiper-slide">
               <div class="gallery-image">
                 <a
-                  href="http://www.youtube.com/watch?v=0O2aH4XLbto"
-                  class="video-popup-link hover-area"
-                  data-cursor-text="Video"
-                >
-                  <img src="assets/images/gallery-3.jpg" alt="img" />
-                </a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="gallery-image">
-                <a
                   href="assets/media/5.JPG"
                   class="image-link hover-area"
                   data-cursor-text="Gambar"
@@ -1784,11 +1264,11 @@
             <div class="swiper-slide">
               <div class="gallery-image">
                 <a
-                  href="http://www.youtube.com/watch?v=0O2aH4XLbto"
-                  class="video-popup-link hover-area"
-                  data-cursor-text="Video"
+                  href="assets/media/9.JPG"
+                  class="image-link hover-area"
+                  data-cursor-text="Gambar"
                 >
-                  <img src="assets/images/gallery-5.jpg" alt="img" />
+                  <img src="assets/media/9.JPG" alt="img" />
                 </a>
               </div>
             </div>
@@ -1823,77 +1303,77 @@
             <div class="swiper-slide">
               <div class="gallery-image">
                 <a
-                  href="assets/images/gallery-6.jpg"
+                  href="assets/media/1.png"
                   class="image-link hover-area"
-                  data-cursor-text="Image"
+                  data-cursor-text="Gambar"
                 >
-                  <img src="assets/images/gallery-6.jpg" alt="img" />
+                  <img src="assets/media/1.png" alt="img" />
                 </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="gallery-image">
                 <a
-                  href="http://www.youtube.com/watch?v=0O2aH4XLbto"
+                  href="https://www.youtube.com/watch?v=BARLQe1xs14"
                   class="video-popup-link hover-area"
                   data-cursor-text="Video"
                 >
-                  <img src="assets/images/gallery-7.jpg" alt="img" />
+                  <img src="assets/media/t1.jpg" alt="img" />
                 </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="gallery-image">
                 <a
-                  href="assets/images/gallery-8.jpg"
+                  href="assets/media/4.jpg"
                   class="image-link hover-area"
-                  data-cursor-text="Image"
+                  data-cursor-text="Gambar"
                 >
-                  <img src="assets/images/gallery-8.jpg" alt="img" />
+                  <img src="assets/media/4.jpg" alt="img" />
                 </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="gallery-image">
                 <a
-                  href="http://www.youtube.com/watch?v=0O2aH4XLbto"
+                  href="https://www.youtube.com/watch?v=2jADnyGMsEE"
                   class="video-popup-link hover-area"
                   data-cursor-text="Video"
                 >
-                  <img src="assets/images/gallery-9.jpg" alt="img" />
+                  <img src="assets/media/t2.png" alt="img" />
                 </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="gallery-image">
                 <a
-                  href="assets/images/gallery-10.jpg"
+                  href="assets/media/6.jpg"
                   class="image-link hover-area"
-                  data-cursor-text="Image"
+                  data-cursor-text="Gambar"
                 >
-                  <img src="assets/images/gallery-10.jpg" alt="img" />
+                  <img src="assets/media/6.jpg" alt="img" />
                 </a>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="gallery-image">
                 <a
-                  href="http://www.youtube.com/watch?v=0O2aH4XLbto"
-                  class="video-popup-link hover-area"
-                  data-cursor-text="Video"
-                >
-                  <img src="assets/images/gallery-11.jpg" alt="img" />
-                </a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="gallery-image">
-                <a
-                  href="assets/images/gallery-1.jpg"
+                  href="assets/media/8.png"
                   class="image-link hover-area"
-                  data-cursor-text="Image"
+                  data-cursor-text="Gambar"
                 >
-                  <img src="assets/images/gallery-1.jpg" alt="img" />
+                  <img src="assets/media/8.png" alt="img" />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-image">
+                <a
+                  href="assets/media/7.png"
+                  class="image-link hover-area"
+                  data-cursor-text="Gambar"
+                >
+                  <img src="assets/media/7.png" alt="img" />
                 </a>
               </div>
             </div>
@@ -1938,12 +1418,12 @@
                 <h2
                   class="cta-text ms-xl-n60 display-3 fw-extra-bold text-opacity"
                 >
-                  Get Your Tickets Today!
+                Daftarkan Dirimu Sekarang! ✨
                 </h2>
               </div>
               <div class="col-lg-3">
                 <div class="cta-icon d-none d-lg-block ms-xl-70 ms-xxl-100">
-                  <a href="#ticket" aria-label="icons">
+                  <a href="http://wa.me/6282261900070" target="_blank" aria-label="icons">
                     <span class="arrow-up-right-big"
                       ><svg width="205" height="205">
                         <use xlink:href="#arrow-up-right-big"></use></svg
@@ -1993,7 +1473,7 @@
                     <div>
                       <h5 class="custom-jakarta fw-bold text-primary">Sosial Media:</h5>
                       <div>
-                       <a target="_blank" href="#" class="text-decoration-none fs-1">
+                       <a target="_blank" href="http://wa.me/6282261900070" class="text-decoration-none fs-1">
                          <i class="ri-whatsapp-fill"></i>
                          <span class="visually-hidden">Whatsapp</span>
                        </a>
@@ -2001,7 +1481,7 @@
                          <i class="ri-instagram-fill"></i>
                          <span class="visually-hidden">Instagram</span>
                        </a>
-                       <a target="_blank" href="#" class="text-decoration-none fs-1">
+                       <a target="_blank" href="https://www.facebook.com/globalitibadung" class="text-decoration-none fs-1">
                          <i class="ri-facebook-circle-fill"></i>
                          <span class="visually-hidden">Facebook</span>
                        </a>
@@ -2030,76 +1510,6 @@
                 <div style="box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;" class="border border-4 border-primary rounded-5 p-3">
                   <iframe class="rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1632.1330724802913!2d115.18123729562305!3d-8.627046810562932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd238b443f3470b%3A0xed54cf03e1904bf3!2sSMK%20TI%20Bali%20Global%20Badung!5e0!3m2!1sid!2sid!4v1735116969780!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <!-- <div class="map-image parallax position-relative">
-                  <span class="map-marker">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-geo-alt-fill"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
-                      />
-                    </svg>
-                  </span>
-
-                  <div class="map-popup-content">
-                    <h3>Basement</h3>
-                    <p>135W, 46nd Street, New York</p>
-                    <a
-                      id="mapDirectionBtn"
-                      href="#"
-                      class="btn btn-primary btn-sm d-flex align-items-center justify-content-center custom-roboto gap-10 btn-map-direction"
-                      data-bs-toggle="modal"
-                      data-bs-target="#RoutingMapModal"
-                      >Get Direction
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-arrow-right"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                        /></svg
-                    ></a>
-                  </div>
-                </div> -->
-
-                <!-- Modal-Map -->
-                <!-- <div
-                  class="modal modal-fullscreen routing-map-modal fade"
-                  id="RoutingMapModal"
-                  tabindex="-1"
-                  aria-labelledby="RoutingMapLabel"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="RoutingMapLabel">
-                          135 W, 46nd Street, New York
-                        </h1>
-                        <button
-                          type="button"
-                          class="btn-close"
-                          data-bs-dismiss="modal"
-                          aria-label="Close"
-                        ></button>
-                      </div>
-                      <div class="modal-body">
-                        <div id="RoutingMap"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- Modal-Map -->
               </div>
             </div>
           </div>
@@ -2118,11 +1528,11 @@
             <p class="custom-jakarta custom-font-style-2 footer-nav">
               &copy; 2024
               <a
-                href="https://themeperch.net/"
+                href="https://www.smktibaliglobalbadung.sch.id/"
                 class="text-decoration-none"
                 target="_blank"
                 >SMK TI BALI GLOBAL BADUNG</a
-              >. All rights Reserved.
+              >. <br> All rights Reserved.
             </p>
           </div>
           <div class="col-lg-4 order-1 order-lg-2">
@@ -2133,8 +1543,9 @@
             >
               <img
                 src="assets/media/logoti.png"
-                class="logo-dark"
+                class=""
                 alt="logo"
+                width="60%"
               />
             </a>
           </div>
@@ -2160,6 +1571,12 @@
       <!-- container -->
     </footer>
     <!-- Footer ======================-->
+
+    <!-- Scroll Up ======================-->
+    <a href="#" class="scroll-up text-decoration-none" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!-- Scroll Up ======================-->
 
     <!-- SVG ======================-->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">

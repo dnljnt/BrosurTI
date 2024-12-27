@@ -158,7 +158,13 @@
     }
     // =======Swiper .swiper_gallery========>>>>>
 
-
+    $(window).on("scroll", function () {
+      const btnScrollUp = $("#scroll-up");
+      $(this).scrollTop() >= 350
+        ? btnScrollUp.addClass("show-scroll")
+        : btnScrollUp.removeClass("show-scroll");
+    });
+    
 
     // =======Swiper .lineup-swiper========>>>>>
     if($('.lineup-swiper').length > 0){
