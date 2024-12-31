@@ -35,4 +35,4 @@ Jangan ragu untuk berkontribusi pada proyek ini dengan mengajukan issue atau pul
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE). 📄
+Proyek ini dilisensikan di bawah [Lisensi APACHE 2.0](https://choosealicense.com/licenses/apache-2.0/). 📄
