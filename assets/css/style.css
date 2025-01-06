@@ -30227,6 +30227,23 @@ html {
 .show-scroll {
   bottom: 3rem;
 }
+
+.audio-play{
+  position: fixed!important;
+  left: 1rem;
+  z-index: 9;
+  bottom: 2.5rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--bs-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 1200px) {
   .video-promotion{
     height: 550px;
@@ -30247,19 +30264,9 @@ html {
     left: 48%;
   }
   .audio-play{
-    position: fixed!important;
     left: 1rem;
     z-index: 9;
     bottom: 1rem;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: var(--bs-primary);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    cursor: pointer;
   }
 }
 @media (max-width: 1399.98px) {
