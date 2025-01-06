@@ -33,6 +33,27 @@
   });
   // =======Sticky-header========>>>>>
 
+// AUDIO
+$(document).ready(function () {
+  const $music = $("#music");
+  const $btnMusic = $("#audio_play");
+  const $icon = $btnMusic.find("i");
+  let isMuted = false;
+
+  // Event listener untuk tombol mute/unmute
+  $btnMusic.on("click", function () {
+    if (isMuted) {
+      $music[0].play(); // Unmute audio
+      $icon.removeClass("ri-volume-mute-line").addClass("ri-volume-up-line"); // Ganti ikon menjadi volume on
+    } else {
+      $music[0].pause(); // Mute audio
+      $icon.removeClass("ri-volume-up-line").addClass("ri-volume-mute-line"); // Ganti ikon menjadi volume muted
+    }
+    isMuted = !isMuted; // Toggle state
+  });
+});
+
+
   // =======Social share========>>>>>
   if ($(".share-link").length > 0) {
     $(".share-link").on("click", function (event) {
@@ -661,7 +682,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // menu dynamic active class js
   function eventiva_dynamicCurrentMenuClass(selector) {
     let currentPath = window.location.href.split("/").reverse()[0];
-    console.log(currentPath);
     Array.from(selector.querySelectorAll("li")).forEach(function (li) {
       let anchor = li.querySelector("a");
       if (anchor.getAttribute("href") === currentPath) {
